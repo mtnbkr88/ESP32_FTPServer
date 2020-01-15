@@ -27,8 +27,8 @@ FtpServer ftpSrv;   //set #define FTP_DEBUG in ESP32FtpServer.h to see ftp verbo
 #define uS_TO_S_FACTOR 1000000LL /* Conversion factor for micro seconds to seconds */
 #define TIME_TO_SLEEP5S  5         /* Time ESP32 will go to sleep (in seconds) */
 
-const char* ssid = "WilliamsHome4";
-const char* password = "3103864271";
+const char* ssid = "yourSSID";
+const char* password = "yourPWD";
 
 // Setup static IP
 // Set your Static IP address
